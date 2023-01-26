@@ -1,0 +1,26 @@
+{
+  "name": "inventorymanagementsystem",
+  "version": "1.0.0",
+  "description": "InventoryManagementSystem-Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamdushan/Portfolio_InventoryManagementSystem.git"
+  },
+  "author": "iamdushan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamdushan/Portfolio_InventoryManagementSystem/issues"
+  },
+  "homepage": "https://github.com/iamdushan/Portfolio_InventoryManagementSystem#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
